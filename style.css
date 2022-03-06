@@ -6,8 +6,14 @@ body {
   line-height: 20px;
   color: #000000;
   text-align: center;
-  background-color: #FFFFCC;
+  background-color: #f8f8f8;
   line-height: 1.2; 
+}
+
+img {
+	border-radius: 10%;
+	border-color: red;
+	border: 5px rgb(256, 0, 0) solid;
 }
 
 footer {
@@ -15,6 +21,16 @@ footer {
   background-color: #999999;
   color: #ffffff;
   text-align: center;
+}
+
+header p {
+	font-size: 20px;
+	font-style: italic;
+}
+
+p {
+	font-size: 18px;
+	padding: 5px;
 }
 
 h1 {
@@ -31,6 +47,39 @@ h2 {
 
 h3 {
 	font: "Calibri", sans-serif;
-	font-size: 20px;
+	font-size: 18px;
+	font-weight: 700;
 	text-align: center;
+	background-color: #eaeaea;
+}
+
+li {
+	text-align: left;
+	margin: 5px;
+	padding: 0 50px;
+	list-style-type: none;
+	background-image: url(https://static.tildacdn.com/tild3263-3063-4765-b466-393334376539/leather-derby-shoe.png);
+	background-size: 25px;
+	background-repeat: no-repeat;
+	background-position: leftwards;
+}
+
+.s_desc {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+.f_desc {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+
+.contacts {
+	text-align: left;
+	padding: 0 70px;
 }
