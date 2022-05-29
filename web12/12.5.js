@@ -1,4 +1,4 @@
-let number = prompt("Введите число", "0");
+let number = prompt("Введите число");
 let quantity = number.length;
 
 alert(quantity);
