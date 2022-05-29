@@ -6,7 +6,7 @@ if(isRaining)
 } 
 else 
 {
-    temperature = prompt("Какая температура на улице?", "0");
+    temperature = prompt("Какая температура на улице?");
     if(temperature < 0 || temperature > 35){
         minutes = 0;
     } else 
