@@ -1,5 +1,7 @@
-let calculateSalary = function(dirty){
-    if(dirty < 100000){
+let calculateSalary = function(dirty)
+{
+    if(dirty < 100000)
+    {
         return dirty - dirty / 100 * 35;
     }
 
