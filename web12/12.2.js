@@ -7,7 +7,7 @@ if(isRaining)
 } 
 else 
 {
-    let temperature = prompt("Какая температура на улице?", "0");
+    let temperature = prompt("Какая температура на улице?");
     if(temperature >= 10 && temperature < 15){
         minutes = 30;
     } 
