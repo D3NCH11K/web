@@ -1,4 +1,4 @@
-let lastNumber = prompt("Введите n", "0");
+let lastNumber = prompt("Введите n");
 
 let multiplicationResult = 0;
 for(let num = 1; num <= lastNumber; num++)
