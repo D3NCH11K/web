@@ -1,0 +1,482 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,700");
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+  padding-bottom: 5px;	
+  position: relative;
+  
+  filter: drop-shadow(2px 5px 4px rgba(0, 0, 0, 0.25));
+
+  background: #700003;
+}
+
+.ah1 {
+  padding: 0px;
+
+  position: static;
+  top: 0px;
+
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+h1 {
+  position: static;
+  left: 0px;
+  top: 0px;
+
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+
+  color: #FDEAA8;
+
+  margin: 0px;
+}
+
+a {text-decoration: none;}
+
+.sl {
+  position: static;
+}
+
+h4 {
+  position: static;
+
+  text-align: center;
+
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #FDEAA8;
+  
+  margin: 10px;
+}
+
+li {
+  position: static;
+
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 90%;
+
+  text-align: center;
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #FDEAA8;
+
+  margin: 10px 0px;
+}
+
+.about {
+  padding: 50px;
+  border-radius: 30px;
+  background-image: url(https://sun9-80.userapi.com/s/v1/ig2/-_SoIK6gnIIMM6LgtbaAUDFooBTm4v_vTWaVwFYxBPoiuW2Zz9W9hilD1OZIWoDx2jcGnWlE8aI4zc8mb5xB4uiA.jpg?size=1020x350&quality=96&type=album);
+  background-position: 50% 100%;
+
+  position: static;
+
+  margin: 30px 0px;
+}
+
+p {
+  position: static;
+
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 90%;
+
+  text-align: center;
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #FDEAA8;
+
+  margin: 10px 0px;
+}
+
+.bck {
+  padding: 0px 10px 15px;
+
+  position: static;
+  background: #B90005;
+  border-radius: 50px;
+
+  margin: 30px 0px;
+}
+
+h2 {
+  position: static;
+  top: 0px;
+
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 90%;
+  text-align: center;
+
+  color: #FDEAA8;
+
+  text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+
+  margin: 5px 0px;
+}
+
+.mstr {
+  padding: 10px 30px;
+
+  position: static;
+  background: #B90005;
+  border-radius: 31px;
+
+  margin: 30px 0px;
+}
+
+.mstr_sub{
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 30px;
+
+  position: static;
+  background: #B90005;
+  border-radius: 50px;
+
+  margin: 30px 0px;
+}
+
+.mstr_img {
+  position: static;
+  width: 200px;
+  height: 200px;
+
+  background: url(https://sun6-23.userapi.com/s/v1/if1/_a7e6YKdXZ_RPpN1ePHXbJRR3JG6bLxNposNqRTx9dcNw8nkZTBnywCXA8Qi0xxrPHzqfoth.jpg?size=200x200&quality=96&crop=109,1,392,392&ava=1);
+  background-size: 100%;
+  box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+
+  margin: 0px 10px;
+}
+
+p1 {
+  position: static;
+  max-width: 600px;
+
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 90%;
+  display: flex;
+  align-items: center;  
+  text-align: center;
+
+  color: #FDEAA8;
+
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+
+  margin: 0px 10px;
+}
+
+.ktlg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: border-box;
+  margin: 30px;
+}
+
+.mks_1{
+  width:200px;
+  height: 200px;
+  position: static;
+
+  background-image: url(https://sun9-54.userapi.com/s/v1/ig2/SoKVI_JKh8kWVhUDTQHpHDia9G2T1HNPrjgzfeqZPM_2lv4IiKM77e4rgAWUkW_g-K_rj1XPCpwgRh9D_anOG_We.jpg?size=200x201&quality=96&type=album);
+  border-radius: 25%;
+
+  margin: 5px;
+}
+
+.mks_2{
+  position: static;
+  width: 200px;
+  height:200px;
+
+  background: url(https://sun9-40.userapi.com/s/v1/ig2/YOb5ZO5RC1xSD_spA3_NYG_BngJX8ZiiWehRudxjo3iGd4Xu526l7ErBD88r7ZpXX3uRruvborl0oGOYPypNhZjW.jpg?size=200x201&quality=96&type=album);
+  border-radius: 25%;
+
+  margin: 5px 0px;
+}
+
+.mks_3{
+  width: 200px;
+  height:200px;
+  position: static;
+
+  background: url(https://sun9-44.userapi.com/s/v1/ig2/2ZOEmA6pSfqeip1uDc0IwjZqtlX1juZMXIpbh3K0_ACtGmOdItwAlRsWn9jkRURzJQZpzr380gqAwOFB85Y-MZYA.jpg?size=200x200&quality=96&type=album);
+  border-radius: 25%;
+
+  margin: 5px 0px;
+}
+
+.mks_4{
+  width: 200px;
+  height:200px;
+  position: static;
+
+  background: url(https://i.pinimg.com/736x/e6/6c/bd/e66cbd5d06f27cf209b71fe3773a9082.jpg);
+  border-radius: 25%;
+
+  margin: 5px 0px;
+}
+
+.mks_5{
+  width: 200px;
+  height:200px;
+  position: static;
+
+  background: url(https://ae04.alicdn.com/kf/H652611314e4f4a91b64e9294c804b437d.jpg_200x200.jpg);
+  border-radius: 25%;
+
+  margin: 5px 0px;
+}
+
+.bck_btn{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background: url(https://mastersfx.com/wp-content/plugins/woocommerce-currency-switcher/img/arrow-right.png);
+}
+
+.frwd_btn{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background: url(https://mastersfx.com/wp-content/plugins/woocommerce-currency-switcher/img/arrow-right.png);
+  transform: rotate(180deg);
+}
+
+.setcol {
+  display: flex;
+  flex-direction: column;
+}
+
+.tvr {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 20px 40px;
+
+  background: #B90005;
+  box-shadow: none;
+  border-radius: 65px;
+  border: none;
+
+  margin: 1vw;
+}
+
+.slider-dots {
+  text-align: center;
+}
+
+.slider-dots_item{
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: #FFB1AD;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.slider-dots_item:hover {
+  background-color: #FF4D44;
+}
+
+.ktlg .tvr {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+      opacity: .4
+  }
+  to {
+      opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+      opacity: .4
+  }
+  to {
+      opacity: 1
+  }
+}
+
+p2 {
+  position: static;
+  max-width: 200px;
+
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 90%;
+  display: flex;  
+  text-align: center;
+
+  color: #FDEAA8;
+
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+
+  margin: 0px 0px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  gap: 10px;
+  margin-top: 30px;
+
+  background: #1A1A1A;
+  border-radius: 25px;
+
+  flex: none;
+  align-self: stretch;
+}
+
+p3 {
+  position: static;
+
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 90%;
+
+  text-align: center;
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #9A9A9A;
+
+  margin: 10px 0px;
+}
+
+@media screen and (max-width: 1199px){
+  body{
+    padding: 0 30px;
+  }
+
+  .about {
+    padding: 40px;
+  }
+
+  .tvr {
+    margin: 0.5vw;
+    padding: 20px 25px;
+  }
+}
+
+@media screen and (max-width: 991px){
+  body{
+    padding: 0 30px;
+  }
+  .about {
+    padding: 30px;
+  }
+
+  .tvr {
+    margin: 0.5vw;
+    padding: 20px 20px;
+  }
+  }
+
+  @media screen and (max-width: 975px){
+    body {
+      padding: 0 20px;
+    }
+  
+    .about {
+      padding: 20px;
+    }
+  
+    .bck {
+      border-radius: 40px;
+    }
+  
+    .mstr_sub{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  
+    .tvr {
+      margin: 1.5vw;
+      padding: 20px 10px;
+    }
+}
+
+@media screen and (max-width: 767px){
+  body {
+    padding: 0 20px;
+  }
+
+  .about {
+    padding: 20px;
+  }
+
+  .bck {
+    border-radius: 40px;
+  }
+
+  .mstr_sub{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .tvr {
+    flex-direction: row;
+    align-items: center;
+    margin: 1.5vw;
+    padding: 20px 10px;
+  }
+  
+}
+
+@media screen and (max-width: 575px){ 
+  body {
+    padding: 0 10px;
+  }
+
+  .about {
+    padding: 10px;
+  }
+
+  .bck {
+    border-radius: 40px;
+  }
+
+  .mstr_sub{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 30px;
+  }
+}
